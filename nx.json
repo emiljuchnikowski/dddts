@@ -1,0 +1,24 @@
+{
+  "npmScope": "ddd",
+  "implicitDependencies": {
+    "angular.json": "*",
+    "package.json": "*",
+    "tsconfig.json": "*",
+    "tslint.json": "*",
+    "nx.json": "*"
+  },
+  "projects": {
+    "webadmin": {
+      "tags": ["ui"]
+    },
+    "webadmin-e2e": {
+      "tags": []
+    },
+    "hybryd": {
+      "tags": ["ui"]
+    },
+    "hybryd-e2e": {
+      "tags": []
+    }
+  }
+}
